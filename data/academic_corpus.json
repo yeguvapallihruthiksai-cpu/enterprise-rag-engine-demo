@@ -1,0 +1,38 @@
+[
+  {
+    "id": "doc-101",
+    "title": "Adaptive Learning Systems in Higher Education",
+    "language": "en",
+    "topic": "education technology",
+    "content": "Adaptive learning systems personalize content sequencing by tracking learner outcomes, pacing, and mastery gaps. Universities use retrieval-augmented assistants to answer curriculum questions and surface evidence-backed interventions."
+  },
+  {
+    "id": "doc-102",
+    "title": "Multilingual Knowledge Retrieval for Research Portals",
+    "language": "en",
+    "topic": "information retrieval",
+    "content": "Multilingual retrieval pipelines improve relevance by normalizing user questions, retrieving semantically similar passages, and reranking citations based on language match, recency, and domain confidence."
+  },
+  {
+    "id": "doc-103",
+    "title": "Modelos de recuperacion academica",
+    "language": "es",
+    "topic": "information retrieval",
+    "content": "Los motores RAG para instituciones academicas combinan busqueda vectorial con reordenamiento de resultados para responder preguntas complejas en varios idiomas y mantener citas verificables."
+  },
+  {
+    "id": "doc-104",
+    "title": "Serverless Analytics for Campus Platforms",
+    "language": "en",
+    "topic": "cloud architecture",
+    "content": "AWS Lambda and API Gateway allow burst traffic from student platforms to scale without maintaining idle servers. Event-driven ingestion pipelines can index new academic documents as they arrive."
+  },
+  {
+    "id": "doc-105",
+    "title": "Bases de conocimiento institucionales",
+    "language": "es",
+    "topic": "education technology",
+    "content": "Una base de conocimiento institucional debe ofrecer respuestas consistentes, trazables y faciles de auditar, especialmente cuando estudiantes y personal hacen preguntas en distintos idiomas."
+  }
+]
+
