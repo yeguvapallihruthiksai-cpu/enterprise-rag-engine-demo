@@ -35,7 +35,21 @@ React Chat UI
 npm install
 ```
 
-### 2. Start the backend
+### 2. Easiest way to run everything
+
+From the repo root:
+
+```bash
+npm run dev
+```
+
+This starts:
+
+- FastAPI backend on `http://localhost:8001`
+- TypeScript orchestrator on `http://localhost:8090`
+- React frontend on `http://localhost:5175`
+
+### 3. Start the backend manually if you want each service separately
 
 ```bash
 cd backend
@@ -45,13 +59,13 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8001
 ```
 
-### 3. Start the orchestrator from the repo root
+### 4. Start the orchestrator from the repo root
 
 ```bash
 npm run dev:orchestrator
 ```
 
-### 4. Start the frontend from the repo root
+### 5. Start the frontend from the repo root
 
 ```bash
 npm run dev:frontend

@@ -7,9 +7,11 @@
     "orchestrator"
   ],
   "scripts": {
+    "dev:backend": "cd backend && python -m uvicorn app.main:app --reload --port 8001",
     "dev:frontend": "npm run dev --workspace frontend",
     "dev:orchestrator": "npm run dev --workspace orchestrator",
-    "dev": "concurrently \"npm run dev:orchestrator\" \"npm run dev:frontend\"",
+    "dev:web": "concurrently \"npm run dev:orchestrator\" \"npm run dev:frontend\"",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:orchestrator\" \"npm run dev:frontend\"",
     "build": "npm run build --workspace orchestrator && npm run build --workspace frontend"
   },
   "devDependencies": {
